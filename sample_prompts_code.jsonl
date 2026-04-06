@@ -1,0 +1,10 @@
+{"prompt": "Given a Python traceback showing KeyError: 'user_id' in handlers.py line 88, identify the most likely root cause and propose the minimal code fix."}
+{"prompt": "Find the likely bug in this function and return a unified diff only: def normalize(xs): return [x / sum(xs) for x in xs]"}
+{"prompt": "A FastAPI endpoint returns 422 for a valid request after a refactor. What is the most likely mistake and the smallest fix?"}
+{"prompt": "Review this SQL query for performance problems and propose a rewrite: SELECT * FROM orders WHERE DATE(created_at)=CURRENT_DATE AND status='paid';"}
+{"prompt": "A retry loop catches Exception broadly and hides KeyboardInterrupt. Propose the minimal safe correction."}
+{"prompt": "A streaming SSE parser occasionally drops the final event. State the most likely bug and the minimal fix."}
+{"prompt": "Given a mypy error about Optional[str] passed to open(), suggest the smallest safe code change."}
+{"prompt": "A Docker build is slow because dependencies reinstall on every edit. What is the highest-impact Dockerfile improvement?"}
+{"prompt": "A coroutine-based cache occasionally returns stale values because concurrent writers race. Suggest the minimal synchronization fix."}
+{"prompt": "Explain why this pandas operation is memory-heavy and suggest a lower-memory rewrite: df.apply(lambda row: expensive(row), axis=1)"}

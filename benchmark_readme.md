@@ -423,7 +423,7 @@ The frontier chart is intentionally simple:
 
 So the better engine sits more **up and left**.
 
-That chart is useful because it shows both interactive responsiveness and useful serving capacity on one page.
+That chart effectively displays the infrastructure performance difference between both ways of serving up model inference because it shows both interactive responsiveness and useful serving capacity on one page.
 
 ---
 
